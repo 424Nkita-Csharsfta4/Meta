@@ -1,0 +1,126 @@
+body {
+  font-family: 'Audiowide',sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8em;
+}
+
+.header .container {
+  width: 1160px;
+  height: 100px;
+}
+
+.header .container .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+
+.header .container .header-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 30px;
+  padding-left: 5em;
+  padding-top: 7px;
+}
+
+.header .container .header-ul .header-li {
+  color: #fff;
+  font-family: 'DM Mono',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.header .container .icons-item-link {
+  position: relative;
+  background-color: #fff;
+  width: 180px;
+  height: 36px;
+  left: 500px;
+  top: 10px;
+}
+
+.header .container .header-li-img {
+  margin-left: 5em;
+  background-color: #fff;
+}
+
+.meta-record {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.meta-record .left {
+  padding-top: 10em;
+}
+
+.meta-record .left .left-h1 {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 1em;
+}
+
+.meta-record .left .left-p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 300px;
+  padding-left: 4em;
+  padding-top: 2em;
+}
+
+.meta-record .left .btn {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  width: 200px;
+  height: 60px;
+  background: #8DFD1B;
+  margin-top: 4em;
+  margin-left: 4em;
+}
+
+#Matrix {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    min-width: 200px;
+  }
+  header .header-nav {
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
